@@ -5,4 +5,6 @@
 <dimen name="imageView_height">130dp</dimen>
 <dimen name="ImageView_width">180dp</dimen>
 <dimen name="radio_size">16sp</dimen>
+    <dimen name="TextView_textSize">24sp</dimen>
+    <dimen name="textViewQuestion">20sp</dimen>
 </resources>

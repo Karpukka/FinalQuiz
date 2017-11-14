@@ -22,9 +22,10 @@
                 android:layout_marginLeft="24dp"
                 android:fontFamily="cursive"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="@dimen/TextView_textSize"
                 android:textStyle="bold"
-                android:layout_marginStart="24dp" />
+                android:layout_marginStart="24dp"
+                tools:targetApi="jelly_bean" />
 
             <EditText
                 android:id="@+id/name_text"
@@ -55,7 +56,8 @@
                 android:text="@string/_1_who_is_current_president_of_usa"
                 android:textColor="@android:color/black"
                 android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="@dimen/textViewQuestion"
+                tools:targetApi="jelly_bean" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -74,7 +76,8 @@
                         android:id="@+id/radioGroup"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:ignore="UselessParent">
 
                         <RadioButton
                             android:id="@+id/radio_one"
@@ -153,7 +156,8 @@
                 android:text="@string/_2_what_time_of_year_is_it"
                 android:textColor="@android:color/black"
                 android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="@dimen/textViewQuestion"
+                tools:targetApi="jelly_bean" />
 
 
             <LinearLayout
@@ -174,7 +178,8 @@
                         android:id="@+id/radioGroups"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:ignore="UselessParent">
 
                         <RadioButton
                             android:id="@+id/radio_one1"
@@ -253,7 +258,8 @@
                 android:text="@string/_3_select_only_aircraft_s"
                 android:textColor="@android:color/black"
                 android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="@dimen/textViewQuestion"
+                tools:targetApi="jelly_bean" />
 
 
             <LinearLayout
@@ -350,7 +356,8 @@
                 android:text="@string/_4_is_it_back_to_the_future_movie"
                 android:textColor="@android:color/black"
                 android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="@dimen/textViewQuestion"
+                tools:targetApi="jelly_bean" />
 
 
             <LinearLayout
@@ -404,7 +411,8 @@
                 android:text="@string/_5_who_is_the_richest_in_the_world_2017"
                 android:textColor="@android:color/black"
                 android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:targetApi="jelly_bean" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -423,7 +431,8 @@
                         android:id="@+id/radioGroup2"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:ignore="UselessParent">
 
                         <RadioButton
                             android:id="@+id/radio_one2"
