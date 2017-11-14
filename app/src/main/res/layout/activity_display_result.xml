@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ww"
+    android:orientation="vertical"
+    tools:context="com.example.android.justjava.DisplayResultActivity">
+    <!--tools:context="com.example.android.finalquiz.com.example.android.justjava.DisplayResultActivity">-->
+    <TextView
+        android:id="@+id/finTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp"
+        android:lineSpacingMultiplier="1.2"
+        android:includeFontPadding="false"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="160sp"
+        android:layout_height="60sp"
+        android:background="#424242"
+        android:onClick="clickToReturn"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="48dp"
+        android:text="START AGAIN"
+        android:textColor="#EDE7F6"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+       android:layout_marginLeft="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="clickSendMail"
+        android:src="@drawable/b2"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+

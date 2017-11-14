@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Final Quiz</string>
+    <string name="todo">TODO</string>
+    <string name="Image">TODO</string>
+    <string name="ford">Ford</string>
+    <string name="cessna">Cessna</string>
+    <string name="submit">SUBMIT</string>
+    <string name="todo_money">TODO</string>
+    <string name="warren_buffet">Warren Buffet</string>
+    <string name="carlos_slim_helu">Carlos Slim Helu</string>
+    <string name="michael_bloomberg">Michael Bloomberg</string>
+    <string name="bill_gates">Bill Gates</string>
+    <string name="_5_who_is_the_richest_in_the_world_2017">5) Who is the richest in the world 2017 ?</string>
+    <string name="select_for_answer">Select for answer</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="todo_gif">TODO</string>
+    <string name="_4_is_it_back_to_the_future_movie">4) Is it \'Back to the future\' movie ?</string>
+    <string name="boeing">Boeing</string>
+    <string name="airbus">Airbus</string>
+    <string name="_3_select_only_aircraft_s">3) Select only aircraft\'s</string>
+    <string name="autumn">Autumn</string>
+    <string name="spring">Spring</string>
+    <string name="summer">Summer</string>
+    <string name="winter">Winter</string>
+    <string name="_2_what_time_of_year_is_it">2) What time of year is it ?</string>
+    <string name="todo_whiteHouse">TODO</string>
+    <string name="nelson_rockefeller">Nelson Rockefeller</string>
+    <string name="john_f_kennedy">John F. Kennedy</string>
+    <string name="donald_tramp">Donald Tramp</string>
+    <string name="barak_obama">Barak Obama</string>
+    <string name="_1_who_is_current_president_of_usa">1) Who is current president of USA ?</string>
+    <string name="your_name">Your name</string>
+</resources>

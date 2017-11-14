@@ -1,0 +1,527 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.justjava.MainActivity">
+    <!--tools:conteMainActivityvity">-->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/w"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="cursive"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="24dp" />
+
+            <EditText
+                android:id="@+id/name_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="16dp"
+                android:hint="@string/your_name"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/_1_who_is_current_president_of_usa"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/barak_obama" />
+
+                        <RadioButton
+                            android:id="@+id/radio_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/donald_tramp" />
+
+                        <RadioButton
+                            android:id="@+id/radio_three"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/john_f_kennedy" />
+
+                        <RadioButton
+                            android:id="@+id/radio_four"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/nelson_rockefeller" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="16dp">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/wh"
+                        android:contentDescription="@string/todo_whiteHouse" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/_2_what_time_of_year_is_it"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroups"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio_one1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/winter" />
+
+                        <RadioButton
+                            android:id="@+id/radio_two1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/summer" />
+
+                        <RadioButton
+                            android:id="@+id/radio_three1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/spring" />
+
+                        <RadioButton
+                            android:id="@+id/radio_four1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/autumn" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="16dp">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/year_time"
+                        android:contentDescription="@string/todo" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/_3_select_only_aircraft_s"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/checkbox_airbus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/airbus" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_boeng"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/boeing" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_cessna"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/cessna" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_ford"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onCheckboxClicked"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/ford" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="16dp">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/air"
+                        android:contentDescription="@string/Image" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/_4_is_it_back_to_the_future_movie"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/gigshow"
+                    android:layout_marginLeft="24sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/todo_gif"
+                    android:layout_marginStart="24sp" />
+                <Switch
+                    android:id="@+id/monitored_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="18dp"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/customtrack"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:text="@string/select_for_answer"
+                    android:textOff="@string/no"
+                    android:textOn="@string/yes"
+                    android:onClick="onSwitchClicked"/>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="#000000" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/_5_who_is_the_richest_in_the_world_2017"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radioGroup2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio_one2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/bill_gates" />
+
+                        <RadioButton
+                            android:id="@+id/radio_two2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/michael_bloomberg" />
+
+                        <RadioButton
+                            android:id="@+id/radio_three2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/carlos_slim_helu" />
+
+                        <RadioButton
+                            android:id="@+id/radio_four2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="@string/warren_buffet" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="16dp">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/money"
+                        android:contentDescription="@string/todo_money" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="#000000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#000000" />
+
+            <Button
+                android:id="@+id/btnStop"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="8dp"
+                android:onClick="stopQuiz"
+                android:background="#424242"
+                android:textColor="#EDE7F6"
+                android:textSize="18sp"
+                android:text="@string/submit" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

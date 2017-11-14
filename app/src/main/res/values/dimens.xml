@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="textSize_button">18sp</dimen>
+<dimen name="marg_bot">16dp</dimen>
+<dimen name="imageView_height">130dp</dimen>
+<dimen name="ImageView_width">180dp</dimen>
+<dimen name="radio_size">16sp</dimen>
+</resources>
